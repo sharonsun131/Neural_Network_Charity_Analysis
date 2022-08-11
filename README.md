@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 ## Overview of the analysis:
 
-The purpose of this analysis is to use machine learning and neural networks to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. Data id from a CSV file, which containing more than 34,000 organizations that have received funding from Alphabet Soup over the years
+The purpose of this analysis is to use machine learning and neural networks to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. Data is from a CSV file, which containing more than 34,000 organizations that have received funding from Alphabet Soup over the years
 
 ## Results: 
 
@@ -76,3 +76,5 @@ The third attempt is to add more neurons and change the activation function from
 ![attemp3-2](https://user-images.githubusercontent.com/102264298/184042053-eb033f6d-3a8a-4956-adab-3a7023c1eddb.png)
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+The accuracy score is around 70% at the end of optimization. This does not meet the 75% accuracy target, even though it is pretty close. In this case, this optimization methods did not significantly improved this project. In order to meet the target accuracy score, it is recommended to acquire more data, check for outliers and also we can use Random Forest Classifier to construct a multitude of decision trees at training time. 
